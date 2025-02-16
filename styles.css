@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Sparta;
+  src: url(./LeagueSpartan-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sparta;
+}
+
+body {
+  width: 400px;
+  height: 590px;
+}
+.logo {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.color-pallet {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.random {
+  display: flex;
+  margin-left: 50px;
+}
+
+.colors {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.color-paleet-background {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  width: 98%;
+  height: 50px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.color-paleet-background button {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.color-paleet-background button:hover {
+  border: 1.5px solid #0084ff;
+}
+
+#cp_yellow {
+  background-color: #ffff77;
+}
+
+#cp_blue {
+  background-color: #7777ff;
+}
+#cp_green {
+  background-color: #aeff77;
+}
+#cp_purple {
+  background-color: #c977ff;
+}
+#cp_mint {
+  background-color: #77ff92;
+}
+#cp_aqua {
+  background-color: #77ffe4;
+}
+#cp_pink {
+  background-color: #ff77e4;
+}
+#cp_rose {
+  background-color: #ff7792;
+}
+#cp_orchid {
+  background-color: #ffc9ff;
+}
+#cp_magenta {
+  background-color: #ffaeff;
+}
+
+button.selected {
+  border: 2px solid #0084ff; /* Highlight selected button */
+}
